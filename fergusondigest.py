@@ -23,12 +23,12 @@ st.set_page_config(
 )
 
 # Display logo at the top
-logo_path = "/Users/sa21/Desktop/The-Ferguson-Digest/logo.png"
+logo_path = "logo.png"
 if os.path.exists(logo_path):
     st.image(logo_path, width=200)
 
 # Add icon next to title below the logo - aligned and close
-icon_path = "/Users/sa21/Desktop/The-Ferguson-Digest/Checklist--Streamline-Ultimate (1).png"
+icon_path = "Checklist--Streamline-Ultimate (1).png"
 if os.path.exists(icon_path):
     import base64
     with open(icon_path, "rb") as img_file:
